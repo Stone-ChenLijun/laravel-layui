@@ -1,0 +1,240 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.layui-form label.required::before {
+  content: "*";
+  margin-right: 1px;
+  color: red;
+}
+
+.do-layout-admin .logo {
+  padding: 5px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.do-layout-admin .logo-title {
+  color: white;
+  font-size: 18px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.do-layout-admin a.menu {
+  font-size: 16px;
+}
+
+.do-layout-admin .logo-title:hover {
+  color: coral;
+}
+
+.do-layout-admin .menu-icon {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.do-layout-admin .layui-body {
+  background-color: #f2f2f2;
+  padding: 0 10px;
+}
+
+.do-layout-admin .layui-body .search-fields {
+  margin: 15px auto;
+}
+
+.do-layout-admin .do-form-half {
+  margin: 30px 15px;
+  width: 50%;
+}
+
+.do-layout-admin .layui-form .wide-label .layui-form-label {
+  width: 200px;
+}
+
+.do-layout-admin .layui-form .wide-label .layui-input-block {
+  margin-left: 200px;
+}
+
+.do-layout-admin .selected-img {
+  width: 97px;
+  height: 97px;
+}
+
+.do-layout-admin .btn-chose-image {
+  display: block;
+  margin-top: 5px;
+}
+
+.do-layout-admin .chose-image {
+  width: 92px;
+  height: 92px;
+}
+
+.do-layout-admin .layui-table img {
+  height: 100%;
+  width: auto;
+}
+
+.do-layout-admin ul.carousel-container {
+  background-color: rgba(75, 179, 230, 0.15);
+  width: 100%;
+  height: 120px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  padding: 2px;
+  display: flex;
+  position: relative;
+}
+
+.do-layout-admin ul.carousel-container li {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  z-index: 1;
+  height: 100px;
+  width: 100px;
+  margin-right: 10px;
+}
+
+.do-layout-admin ul.carousel-container .operations {
+  position: absolute;
+  display: flex;
+  width: 100px;
+  height: 100px;
+  font-size: 18px;
+  line-height: 100px;
+  visibility: hidden;
+  z-index: 2;
+}
+
+.do-layout-admin ul.carousel-container .operations li {
+  cursor: pointer;
+  height: 100%;
+  text-align: center;
+}
+
+.do-layout-admin ul.carousel-container .operations .layui-icon {
+  flex: 1;
+  color: darkorange;
+  font-size: 1.5rem;
+}
+
+.do-layout-admin ul.carousel-container li:hover .operations {
+  visibility: visible;
+  background: rgba(66, 66, 66, 0.2);
+}
+
+.do-layout-admin .time-rules {
+  padding: 10px;
+  width: 100%;
+  min-height: 170px;
+  background-color: rgba(75, 179, 230, 0.15);
+}
+
+.do-layout-admin .time-rules .layui-card {
+  cursor: pointer;
+}
+
+.do-layout-admin .time-rules .layui-card {
+  display: inline-block;
+  margin: 5px;
+  width: 120px;
+}
+
+.do-layout-admin .time-rules .layui-card input {
+  border: none;
+  width: 100%;
+}
+
+.login .bottom {
+  position: absolute;
+  bottom: 0;
+  padding: 8px 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  font-size: 16px;
+  width: 100%;
+}
+
+.login a:hover {
+  color: white;
+}
+
+.login a {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.login .login-container {
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15vh;
+  box-shadow: 0 10px 60px;
+}
+
+.login .login-header {
+  height: 150px;
+  background: #6699cc;
+  color: white;
+  font-size: 32px;
+}
+
+.login .login-content {
+  padding: 20px 20px;
+  background: white;
+}
+
+.login .head-text {
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+  -webkit-box-reflect: below -4px -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(255, 255, 255, 0.1)));
+}
+
+.login .copyright {
+  color: white;
+}
+
+.login .head-text i {
+  font-size: 32px;
+  margin-right: 5px;
+}
+
+.album-management {
+  box-sizing: border-box;
+}
+
+.album-management .album-management-container {
+  height: 100%;
+}
+
+.album-management .layui-row {
+  height: 100%;
+  margin: 15px 10px 0;
+}
+
+.album-management .layui-row .album-tree-container {
+  height: 100%;
+  background: white;
+  overflow: auto;
+}
+
+.album-management .layui-row .album-image-container {
+  background: white;
+  height: 100%;
+  border-left: #F2F2F2 solid 15px;
+}
+
+.album-management .layui-row .album-image-container .upload-image-panel {
+  margin: 10px 10px 0;
+}
+
+.album-management .ablum-image {
+  height: 100%;
+  width: auto;
+}
+

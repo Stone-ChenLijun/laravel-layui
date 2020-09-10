@@ -1,0 +1,15 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+.layui-form {
+    label.required::before {
+        content: '*';
+        margin-right: 1px;
+        color: red;
+    }
+}
+
+@import "app/admin";
+@import "app/login";
+@import "app/album_management";

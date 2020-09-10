@@ -1,0 +1,27 @@
+.album-management {
+    box-sizing: border-box;
+    .album-management-container {
+        height: 100%;
+    }
+    .layui-row {
+        height: 100%;
+        margin: 15px 10px 0;
+        .album-tree-container {
+            height: 100%;
+            background: white;
+            overflow: auto;
+        }
+        .album-image-container {
+            background: white;
+            height: 100%;
+            border-left: #F2F2F2 solid 15px;
+            .upload-image-panel {
+                margin: 10px 10px 0;
+            }
+        }
+    }
+    .ablum-image {
+        height: 100%;
+        width: auto;
+    }
+}
